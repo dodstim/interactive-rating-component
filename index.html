@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<title>Interactive Rating Component</title>
+		<link rel="icon" type="image/x-icon" href="./images/favicon-32x32.png" />
+		<link rel="stylesheet" type="text/css" href="style.css" />
+	</head>
+	<body>
+		<main>
+			<div id="wrapper">
+				<div class="ctnr" id="ctn-rating">
+					<div id="ctnr-icon-star">
+						<img id="icon-star" src="./images/icon-star.svg" alt="icon star" />
+					</div>
+					<section id="content-main">
+						<h2>How did we do?</h2>
+						<article>
+							<p>Please let us know how we did with your support request. All feedback is appreciated to help us improve our offering!</p>
+						</article>
+					</section>
+					<section>
+						<ul id="rating">
+							<li class="rating-number rating-number-hover" id="rtn-1">1</li>
+							<li class="rating-number rating-number-hover" id="rtn-2">2</li>
+							<li class="rating-number rating-number-hover" id="rtn-3">3</li>
+							<li class="rating-number rating-number-hover" id="rtn-4">4</li>
+							<li class="rating-number rating-number-hover" id="rtn-5">5</li>
+						</ul>
+						<div id="ctn-submit-rating">
+							<button id="submit-rating" type="submit">submit</button>
+						</div>
+					</section>
+				</div>
+				<div class="ctnr" id="ctn-congratulations">
+					<div id="ctnr-svg-thx">
+						<img src="./images/illustration-thank-you.svg" alt="review send" />
+					</div>
+					<section>
+						<div id="ctn-rating-selected">
+							<p>You selected <span id="qtn-selected">0</span> out of 5</p>
+						</div>
+						<article id="msg-thx">
+							<h2>Thank You!</h2>
+							<p>We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
+						</article>
+					</section>
+				</div>
+			</div>
+		</main>
+
+
+
+		<script src="script.js"></script>
+	</body>
+</html>
